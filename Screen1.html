@@ -23,7 +23,8 @@ tr:nth-child(even) {
   <body>
 	<center><font size="+3"><h1>SCREEN 1</h1></font><center>
     <br><br>
-	<center><table>
+    <form name="myForm" action="Screen2.html"  method="post">
+  <center><table>
 	<tr>
 		<th>ID</th>
 		<th>Value</th>
@@ -87,14 +88,14 @@ tr:nth-child(even) {
 			</select></td>
 	 </tr>
 	</table></center>
-
+  </form>
   <script>
      function relPage(){
         location.reload();
      }
 
      function onSubmit(){
-       
+
      }
   </script>
 
