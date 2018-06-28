@@ -88,8 +88,18 @@ tr:nth-child(even) {
 	 </tr>
 	</table></center>
 
+  <script>
+     function relPage(){
+        location.reload();
+     }
+
+     function onSubmit(){
+       
+     }
+  </script>
+
 	<br><br>
-	<button type="submit" id="sub1" name="SUBMIT">SUBMIT</button>
-  <button type="submit" id="cancel" name="cancel">CANCEL</button>
+	<button type="submit" id="sub1" name="SUBMIT" onclick="onSubmit()">SUBMIT</button>
+  <button type="submit" name="CANCEL" onclick="relPage()">CANCEL</button>
   </body>
 <html>
